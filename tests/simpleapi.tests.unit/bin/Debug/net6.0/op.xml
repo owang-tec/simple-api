@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>op</name>
+    </assembly>
+    <members>
+        <member name="M:op.Controllers.DataTransformController.FetchAndConvertXmlToJson(System.Int32)">
+            <summary>
+            Fetch the data from the API and convert it to JSON.
+            </summary>
+            <remarks>
+            This endpoint fetches the data from the API, evalutes it against the xml schema schema.xsd and converts it to JSON.
+            </remarks>
+            <param name="id">The unique identifier used to fetch data from the API.</param>
+            <returns>A JSON representation of the fetched data.</returns>
+        </member>
+    </members>
+</doc>

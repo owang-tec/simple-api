@@ -69,6 +69,8 @@ namespace op.Services
                     _logger.LogError(xmlValidationException, "XML validation error");
                     throw;
                 }
+
+                // instead of throw the whole error, it's better to map to problemdetail - Hellang middleware
             }
 
             throw new HttpRequestException($"Failed to fetch data from API after {retryAttemps} attempts");   
